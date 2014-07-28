@@ -125,16 +125,19 @@ syn keyword dPragmaIdentifier      contained lib msg startaddress GNU_asm
 syn keyword dExternIdentifier      contained Windows Pascal Java System D
 syn keyword dAttribute             contained safe trusted system
 syn keyword dAttribute             contained property disable
+syn keyword dAttribute             contained nogc
 syn keyword dVersionIdentifier     contained DigitalMars GNU LDC SDC D_NET
 syn keyword dVersionIdentifier     contained X86 X86_64 ARM PPC PPC64 IA64 MIPS MIPS64 Alpha
 syn keyword dVersionIdentifier     contained SPARC SPARC64 S390 S390X HPPA HPPA64 SH SH64
 syn keyword dVersionIdentifier     contained linux Posix OSX FreeBSD Windows Win32 Win64
 syn keyword dVersionIdentifier     contained OpenBSD BSD Solaris AIX SkyOS SysV3 SysV4 Hurd
-syn keyword dVersionIdentifier     contained Cygwin MinGW
+syn keyword dVersionIdentifier     contained Android Cygwin MinGW
 syn keyword dVersionIdentifier     contained LittleEndian BigEndian
+syn keyword dVersionIdentifier     contained D_NoBoundsChecks
 syn keyword dVersionIdentifier     contained D_InlineAsm_X86 D_InlineAsm_X86_64
 syn keyword dVersionIdentifier     contained D_Version2 D_Coverage D_Ddoc D_LP64 D_PIC
-syn keyword dVersionIdentifier     contained unittest none all
+syn keyword dVersionIdentifier     contained D_X32 D_HardFloat D_SoftFloat D_SIMD
+syn keyword dVersionIdentifier     contained assert unittest none all
 
 syn cluster dComment contains=dNestedComment,dBlockComment,dLineComment
 
